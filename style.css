@@ -123,3 +123,7 @@ details p{margin:12px 0 0}
 .sign p{flex:1 1 auto}
 .foot-logo{flex:0 0 auto;margin-left:auto}
 @media(max-width:600px){.foot-logo img{height:34px}.foot-logo{padding:6px 10px}.sign{font-size:.85rem}}
+.video-grid{display:grid;gap:36px;align-items:center}
+@media(min-width:800px){.video-grid{grid-template-columns:1fr auto}}
+.video-frame{width:100%;max-width:320px;aspect-ratio:9/16;border-radius:32px;overflow:hidden;box-shadow:var(--shadow);border:6px solid #fff;background:var(--nuit);margin-inline:auto}
+.video-frame iframe{display:block;width:100%;height:100%;border:0}
