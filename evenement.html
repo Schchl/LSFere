@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lancement LSFère – 23 octobre à Montpellier</title>
+  <meta name="description" content="Journée de lancement officielle de LSFère le vendredi 23 octobre à la Halle de l'Innovation, Montpellier. Gratuit.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="index.html" aria-label="LSFère, accueil"><img src="logo.png" alt="LSFère"></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Ouvrir le menu">
+      <label for="nav-toggle" class="menu-btn">Menu</label>
+      <ul>
+        <li><a href="index.html#application">L'Application</a></li>
+        <li><a href="index.html#vr">La VR &amp; LSF</a></li>
+        <li><a href="index.html#formules">Formules</a></li>
+        <li><a class="hl" href="evenement.html" aria-current="page">Événement du 23 Octobre</a></li>
+        <li><a class="btn btn-rose btn-sm" href="index.html#formules">Télécharger l'app</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="contenu">
+    <section class="hero center">
+      <div class="wrap">
+        <span class="badge y">🎉 Journée de lancement officielle</span>
+        <h1>Sourds, entendants : et si on se rencontrait ?</h1>
+        <p class="lead">Venez partager un moment unique, tester la réalité virtuelle en toute sérénité et célébrer avec nous une nouvelle façon d'apprendre.</p>
+        <div class="actions" style="justify-content:center"><a class="btn btn-rose" href="#inscription">Réserver mon créneau</a></div>
+      </div>
+    </section>
+
+    <section aria-labelledby="infos">
+      <div class="wrap">
+        <h2 id="infos" class="center">Infos pratiques</h2>
+        <div class="grid g3">
+          <article class="info"><h3>📅 Date &amp; horaires</h3><p>Vendredi 23 octobre, à partir de 9h00. Sessions en continu jusqu'en fin de journée.</p></article>
+          <article class="info"><h3>📍 Lieu</h3>
+            <p>Halle de l'Innovation, Montpellier<br>[Adresse exacte à compléter]</p>
+            <p>Accès : tramway [ligne et arrêt à compléter], parking [à compléter]. Lieu accessible aux personnes à mobilité réduite.</p></article>
+          <article class="info"><h3>🎟️ Tarif</h3><p>Événement 100 % gratuit, ouvert à toutes et tous. Inscription conseillée pour les créneaux VR.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="programme">
+      <div class="wrap">
+        <h2 id="programme" class="center">Au programme de la journée</h2>
+        <div class="grid g3">
+          <article class="card"><div class="ico" aria-hidden="true">🥽</div><h3>Baptême VR personnalisé</h3><p>L'équipe vous accompagne pas à pas pour enfiler le casque et tester votre première leçon. Idéal même pour les débutants complets.</p></article>
+          <article class="card blue"><div class="ico" aria-hidden="true">☕</div><h3>Espace rencontre &amp; convivialité</h3><p>Échanges informels entre personnes sourdes, entendantes, associations, interprètes et curieux, autour d'une collation.</p></article>
+          <article class="card rose"><div class="ico" aria-hidden="true">💬</div><h3>Découverte &amp; retours</h3><p>Présentation de l'équipe, coulisses du projet et recueil de vos ressentis.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="inscription" aria-labelledby="titre-form">
+      <div class="wrap">
+        <div class="form-card">
+          <h2 id="titre-form" class="center">Réservez votre créneau découverte</h2>
+          <form id="resa">
+            <label for="nom">Prénom &amp; Nom</label>
+            <input type="text" id="nom" name="nom" autocomplete="name" required>
+            <label for="email">Adresse email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+            <label for="creneau">Créneau horaire souhaité</label>
+            <select id="creneau" name="creneau" required>
+              <option value="">Choisissez un créneau</option>
+              <option>9h – 11h</option><option>11h – 13h</option><option>14h – 16h</option><option>16h – 18h</option>
+            </select>
+            <fieldset>
+              <legend>Avez-vous déjà testé la réalité virtuelle ?</legend>
+              <div class="radios">
+                <label><input type="radio" name="vr" value="oui" required> Oui</label>
+                <label><input type="radio" name="vr" value="non"> Non</label>
+                <label><input type="radio" name="vr" value="un peu"> Un peu</label>
+              </div>
+            </fieldset>
+            <label for="message">Besoins spécifiques / message pour l'équipe</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+            <button class="btn btn-rose" type="submit">Je m'inscris avec joie à l'événement 👐</button>
+            <p class="msg" id="ok" role="status">Merci ! Votre demande est bien enregistrée. À très vite à Montpellier !</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" aria-labelledby="titre-faq">
+      <div class="wrap">
+        <h2 id="titre-faq" class="center">Questions fréquentes</h2>
+        <details><summary>Faut-il savoir signer pour venir ?</summary><p>Non. Des personnes de l'équipe et des interprètes seront présents, et la journée est pensée pour les débutants complets.</p></details>
+        <details><summary>Puis-je venir avec des enfants ?</summary><p>Oui, les enfants sont les bienvenus. Pour l'essai du casque VR, un âge minimum peut s'appliquer : précisez-nous leur âge dans le message d'inscription.</p></details>
+        <details><summary>Que faire si je porte des lunettes sous le casque VR ?</summary><p>Pas d'inquiétude : le casque s'ajuste en général par-dessus la plupart des lunettes, et l'équipe vous aide à trouver le réglage le plus confortable.</p></details>
+      </div>
+    </section>
+  </main>
+  <script>
+    document.getElementById('resa').addEventListener('submit', function (e) {
+      e.preventDefault();
+      /* GitHub Pages n'a pas de serveur : branchez ici un service (Formspree, Netlify Forms…) */
+      document.getElementById('ok').classList.add('show');
+      this.reset();
+    });
+  </script>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="foot">
+        <div>
+          <h2>Notre mission</h2>
+          <p>Rapprocher personnes sourdes et entendantes grâce à une façon d'apprendre la LSF immersive, humaine et accessible à tous.</p>
+        </div>
+        <div>
+          <h2>Explorer</h2>
+          <ul>
+            <li><a href="index.html#application">L'Application</a></li>
+            <li><a href="index.html#vr">La VR &amp; LSF</a></li>
+            <li><a href="index.html#formules">Formules</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Événement</h2>
+          <ul>
+            <li><a href="evenement.html">Lancement du 23 octobre</a></li>
+            <li><a href="evenement.html#inscription">Réserver ma place</a></li>
+            <li><a href="evenement.html#faq">Questions fréquentes</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="sign">© 2026 LSFère. Tous droits réservés.<br>Avec toute notre bienveillance, <strong>L'équipe LSFère</strong> 👐</p>
+    </div>
+  </footer>
+</body>
+</html>
