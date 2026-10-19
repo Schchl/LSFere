@@ -74,6 +74,21 @@
               <option value="">Choisissez un créneau</option>
               <option>9h – 11h</option><option>11h – 13h</option><option>14h – 16h</option><option>16h – 18h</option>
             </select>
+            <label for="groupe">Nombre de personnes dans le groupe</label>
+            <select id="groupe" name="groupe" required>
+              <option value="">Choisissez un nombre</option>
+              <option value="1">1 personne</option><option value="2">2 personnes</option><option value="3">3 personnes</option><option value="4">4 personnes</option>
+            </select>
+            <fieldset>
+              <legend>Votre niveau en langue des signes</legend>
+              <div class="radios">
+                <label><input type="radio" name="niveau" value="débutant" required> Débutant</label>
+                <label><input type="radio" name="niveau" value="intermédiaire"> Intermédiaire</label>
+                <label><input type="radio" name="niveau" value="expert"> Expert</label>
+                <label><input type="radio" name="niveau" value="fluent"> Fluent</label>
+                <label><input type="radio" name="niveau" value="ne sais pas"> Ne sais pas</label>
+              </div>
+            </fieldset>
             <fieldset>
               <legend>Avez-vous déjà testé la réalité virtuelle ?</legend>
               <div class="radios">
